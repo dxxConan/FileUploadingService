@@ -1,14 +1,14 @@
 ## FileUploadingService
 
-####Description
+#### Description
 This is a rest webservice, which can be used to upload, download files(files will store in local hard disk) and store the metadata of those files in H2 database
 
-####Installation
+#### Installation
 You can plugin the whole project using github, or download the project and import as maven project
 
 **please change the configuration in application.properties file**
 
-####Functions and Usage
+#### Functions and Usage
 
 1. /files/singleFileupload
 	upload a single file
@@ -25,8 +25,7 @@ You can plugin the whole project using github, or download the project and impor
 
 | File_ID       | File_Name     | File_Path      | File_Type     | Time_Stamp    |
 | ------------- |:-------------:| --------------:| ------------- |:-------------:|
-| 				| 				| 				 | ------------- |:-------------:| 
-| 	 			|  		        |     			 | ------------- |:-------------:|
-| 				| 		        |   			 | ------------- |:-------------:|
-| 			    | 			    |   			 | ------------- |:-------------:|
+| 		|		| 		 | 		 |               |
+|               | 	 	|		 |  		 |     		 |	 
+| 		|	        | 		 |	         |   		 |	
 
